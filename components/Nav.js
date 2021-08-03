@@ -12,7 +12,7 @@ function Nav() {
      space-x-10 sm:space-x-20 md:px-60 md:space-x-40 
      overflow-x-scroll scrollbar-hide bg-[#afb2d1] lg:justify-evenly'>
       {Object.values(navHeadings).map((heading) => (
-        <h2 className='cursor-pointer hover:text-white font-thin'>{heading}</h2>
+        <h2 className='cursor-pointer hover:text-white font-light'>{heading}</h2>
       ))}
     </nav>
   )
