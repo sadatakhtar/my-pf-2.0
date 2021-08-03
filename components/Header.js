@@ -11,10 +11,10 @@ function Header() {
         <p className='flex justify-center items-end font-thin'>Website</p>
       </div>
       <Image  
-        className='rounded-full cursor-pointer hover:animate-spin'
+        className='rounded-full animate-pulse '
         src={logo}
-        width={90}
-        height={90}
+        width={60}
+        height={60}
       />
 
 
