@@ -14,6 +14,7 @@ function Nav() {
       {Object.values(navHeadings).map((heading) => (
         <h2 className='text-white cursor-pointer hover:text-blue-500 font-light'>{heading}</h2>
       ))}
+      {/* add Ul & li tags instead */}
     </nav>
   )
 }
