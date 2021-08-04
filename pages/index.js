@@ -5,6 +5,7 @@ import Nav from '../components/Nav'
 import Main from '../components/Main'
 import { ArrowCircleDownIcon } from '@heroicons/react/outline' 
 import Projects from '../components/Projects'
+import ResumeComponent from '../components/ResumeComponent'
 
 
 
@@ -28,6 +29,10 @@ export default function Home() {
         />
       </div>
        <Projects />
+     
+       {/* <ResumeComponent /> */}
+       {/* contact */}
+       {/* footer */}
      
       
 

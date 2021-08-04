@@ -9,7 +9,7 @@ import quoteImg from '../assets/random.jpeg'
 
 function Projects() {
   return (
-    <div className='bg-[#092346] max-w-3xl  m-auto'>
+    <div className='bg-[#092346]  lg:max-w-3xl  m-auto'>
       <h1 className='text-3xl text-white p-5 text-center'>PROJECTS</h1>
       <div className='sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex flex-wrap justify-center'>
         <ProjectCard 

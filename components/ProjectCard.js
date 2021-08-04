@@ -5,10 +5,10 @@ function ProjectCard({Icon, title, techStack, link}) {
     <div className='flex flex-col group bg-[#092346] p-5 cursor-pointer 
     transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50'>
       <Image 
-        className='rounded-2xl max-w-sm'
+        className='rounded-2xl max-w-xs'
         src={Icon}
-        width={300}
-        height={300} 
+        width={200}
+        height={200} 
       />
       <p className='text-gray-500 pt-4'><span className='text-white'>Title:</span> {title}</p>
       <p className='text-gray-500 pt-2 opacity-0 group-hover:opacity-100'><span className='text-white'>Technologies used:</span> {techStack}</p>
