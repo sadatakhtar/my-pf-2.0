@@ -17,8 +17,8 @@ function ProjectCard({Icon, title, techStack, link}) {
      </a>
 
       <p className='text-black pt-4 text-md'> {title}</p>
-      <p className='text-sm text-black pt-2 display-none group-hover:display-block'><span className='text-[#092346]'>Technologies used:</span> {techStack}</p>
-      <p className='text-sm text-black pt-2 cursor-pointer display-none group-hover:display-block text-[#092346] hover:text-white
+      <p className='text-sm text-black pt-2 opacity-0 group-hover:opacity-100'><span className='text-[#092346]'>Technologies used:</span> {techStack}</p>
+      <p className='text-sm text-black pt-2 cursor-pointer opacity-0 group-hover:opacity-100 hover:animate-bounce text-[#092346] hover:text-white
       '><a href={link}> Click here to view site</a></p>
       
     </div>
