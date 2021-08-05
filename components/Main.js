@@ -4,15 +4,15 @@ import ShowIcons from './ShowIcons'
 
 function Main() {
   return (
-   <div className='flex flex-col justify-center items-center pt-10
+   <div className='flex flex-col justify-center items-center pt-20
     md:pt-20 pb-20 bg-[#afb2d1] mh-full'>
      <Image 
       src={centerImg}
       width={80}
       height={80}
      />
-     <h2 className='text-3xl font-light pt-5 sm:text-5xl sm:font-thin 
-     md:text-5xl md:font-thin'>I'm Sadat Akhtar</h2>
+     <h2 className='text-3xl font-light pt-5 sm:text-5xl sm:font-medium 
+     md:text-5xl md:font-medium'>Sadat Akhtar</h2>
      <p className='text-xs text-center font-light p-5 sm:text-sm 
      md:text-lg md:font-thin text-black'
      >Based in Birmingham - Software Developer @ NewCo - Passionate about coding</p>

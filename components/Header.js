@@ -10,12 +10,12 @@ function Header() {
         <h1 className='text-4xl flex justify-center items-center font-medium'>Portfolio</h1>
         <p className='flex justify-center items-end font-thin'>Website</p>
       </div>
-      <Image  
+      {/* <Image  
         className='rounded-full animate-pulse '
         src={logo}
         width={60}
         height={60}
-      />
+      /> */}
 
 
     </header>

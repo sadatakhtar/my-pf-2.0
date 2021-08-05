@@ -1,6 +1,6 @@
 import ProjectCard from './ProjectCard'
 import netflixImg from '../assets/netflix-logo.png'
-import huluImg from '../assets/hulu2.png'
+import huluImg from '../assets/hulu3.png'
 import qaImg from '../assets/login1.png'
 import cyfImg from '../assets/student-tracker.png'
 import tvImg from '../assets/tvshows.jpeg'
@@ -15,7 +15,7 @@ function Projects() {
         <ProjectCard 
         Icon={netflixImg} 
         title='Netflix Clone' 
-        techStack='React-node-CSS, Netlify' 
+        techStack='React, CSS, REST Api, Deployed on Netlify' 
         link='https://netflix-clone-16e6a.web.app/'
         />
         <ProjectCard 

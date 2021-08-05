@@ -8,8 +8,8 @@ function SocialMediaIcons({ Icon, title, link}) {
         <Image
         className='rounded-xl cursor-pointer'
         src={Icon} 
-        width={40}
-        height={40}
+        width={25}
+        height={25}
         alt='social media icon'
        />
         </a>
