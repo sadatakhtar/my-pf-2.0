@@ -6,6 +6,7 @@ import Main from '../components/Main'
 import { ArrowCircleDownIcon } from '@heroicons/react/outline' 
 import Projects from '../components/Projects'
 import ResumeComponent from '../components/ResumeComponent'
+import Contact from '../components/Contact'
 
 
 
@@ -32,6 +33,7 @@ export default function Home() {
      
        {/* <ResumeComponent /> */}
        {/* contact */}
+       <Contact />
        {/* footer */}
      
       
