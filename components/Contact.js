@@ -20,6 +20,8 @@ function Contact() {
           <input className='p-2 rounded-lg' type='email' placeholder='Email' name='email' required/>
           <label htmlFor='message' className='text-gray-500 pb-2 pt-4'>Message *</label>
           <textarea className='p-2 rounded-lg' placeholder='Message' name='message'/>
+
+          <div data-netlify-recaptcha></div>
           <button type='submit' className='mt-10 m-auto text-white border-2 w-40 h-16 rounded-3xl
            hover:text-[#092346] hover:bg-white mb-10'>SEND</button>
         </form>
