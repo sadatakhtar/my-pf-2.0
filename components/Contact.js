@@ -11,14 +11,14 @@ function Contact() {
       {/* <h2 className='text-white text-3xl pb-5 '>Get in touch</h2> */}
 
       <div className='sm:flex  '>
-        <form className='flex flex-col p-10'>
+        <form action='POST' data-netlify='true' className='flex flex-col p-10'>
           <h2 id='contact' className='text-white text-3xl pb-5'>Get in touch</h2>
           <label className='text-gray-500 pb-2'>Name *</label>
-          <input className='p-2 rounded-lg' type='text' placeholder='Name' required />
+          <input className='p-2 rounded-lg' type='text' placeholder='Name' name='name' required />
           <label className='text-gray-500 pb-2 pt-4'>Email *</label>
-          <input className='p-2 rounded-lg' type='email' placeholder='Email' required/>
+          <input className='p-2 rounded-lg' type='email' placeholder='Email' name='email' required/>
           <label className='text-gray-500 pb-2 pt-4'>Message *</label>
-          <textarea className='p-2 rounded-lg' placeholder='Message'/>
+          <textarea className='p-2 rounded-lg' placeholder='Message' name='message'/>
           <button className='mt-10 m-auto text-white border-2 w-40 h-16 rounded-3xl
            hover:text-[#092346] hover:bg-white mb-10'>SEND</button>
         </form>
