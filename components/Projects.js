@@ -5,7 +5,7 @@ import qaImg from "../assets/login1.png";
 import cyfImg from "../assets/student-tracker.png";
 import tvImg from "../assets/tvshows.jpeg";
 import countriesImg from "../assets/countries.jpeg";
-import quoteImg from "../assets/random.jpeg";
+import ftImg from "../assets/Ft.png";
 
 function Projects() {
   return (
@@ -33,10 +33,10 @@ function Projects() {
           link="https://question-mark.netlify.app/"
         />
         <ProjectCard
-          Icon={cyfImg}
-          title="Student Tracker App"
-          techStack="Javascript, React, CSS, HTML, NodeJS, Express, Heroku"
-          link="https://cyf-student-tracker-1.herokuapp.com/"
+          Icon={ftImg}
+          title="Financial Times Clone"
+          techStack="Javascript, React, CSS, HTML, Glitch, Netlify"
+          link="https://ft-test.netlify.app/"
         />
         <ProjectCard
           Icon={tvImg}
