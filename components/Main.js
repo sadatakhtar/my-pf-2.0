@@ -5,14 +5,14 @@ import ShowIcons from './ShowIcons'
 function Main() {
   return (
    <div className='flex flex-col justify-center items-center pt-20
-    md:pt-20 pb-20 bg-[#afb2d1] mh-full'>
+    md:pt-20 pb-5 bg-[#afb2d1] mh-full'>
      <Image 
       src={centerImg}
       width={80}
       height={80}
       alt='center picture'
      />
-     <h2 id='home' className='text-3xl font-light pt-5 sm:text-5xl sm:font-medium 
+     <h2 id='home' className='text-3xl font-medium pt-5 sm:text-5xl sm:font-medium 
      md:text-5xl md:font-medium'>Sadat Akhtar</h2>
      <p className='text-xs text-center font-light p-5 sm:text-sm 
      md:text-lg md:font-thin text-black'

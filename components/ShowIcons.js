@@ -7,7 +7,7 @@ import sqlImg from '../assets/postgres.png'
 
 function ShowIcons() {
   return (
-    <div className='flex space-x-4 p-5 sm:space-x-7 md:space-x-10 justify-around items-center '>
+    <div className='flex space-x-4 p-2 sm:space-x-7 md:space-x-10 justify-around items-center '>
       <Icon pic={gitImg}/>
       <Icon pic={htmlImg}/>
       <Icon pic={jsImg}/>
