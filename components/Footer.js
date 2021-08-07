@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        <p id='resume' className=' hover:text-pink-500 animate-bounce'>Click here to view CV</p>
+        <p id='resume' className=' hover:text-pink-500 animate-pulse'>Click here to view CV</p>
       </a>
     </div>
   );
