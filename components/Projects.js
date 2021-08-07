@@ -10,7 +10,7 @@ import quoteImg from '../assets/random.jpeg'
 function Projects() {
   return (
     <div className='md:bg-[#afb2d1] max-w-xs sm:max-w-lg md:max-w-2xl 2xl:max-w-3xl m-auto mb-20'>
-      <h1 className='text-3xl text-[#092346] p-5 text-center '>PROJECTS</h1>
+      <h1 id='projects' className='text-3xl text-black p-5 text-center '>PROJECTS</h1>
       <div className='sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex flex-wrap justify-center space-x-2 space-y-1 shadow-2xl'>
         <ProjectCard 
         Icon={netflixImg} 

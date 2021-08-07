@@ -3,10 +3,19 @@ function Nav() {
 
   return (
     <nav className='flex justify-evenly list-none p-3 bg-[#092346]' >
-      <li className='text-white hover:text-gray-500'>HOME</li>
-      <li className='text-white hover:text-gray-500'>PROJECTS</li>
-      <li className='text-white hover:text-gray-500'>RESUME</li>
-      <li className='text-white hover:text-gray-500'>CONTACT</li>
+      <a href='#home'>
+        <li className='text-white hover:text-gray-500'>HOME</li>
+      </a>
+      <a href='#projects'>
+        <li className='text-white hover:text-gray-500'>PROJECTS</li>
+      </a>
+      <a>
+        <li className='text-white hover:text-gray-500'>RESUME</li>
+      </a>
+      <a href='#contact'>
+        <li className='text-white hover:text-gray-500'>CONTACT</li>
+      </a>
+      
     </nav>
    
   )

@@ -12,7 +12,7 @@ function Contact() {
 
       <div className='sm:flex  '>
         <form className='flex flex-col p-10'>
-          <h2 className='text-white text-3xl pb-5'>Get in touch</h2>
+          <h2 id='contact' className='text-white text-3xl pb-5'>Get in touch</h2>
           <label className='text-gray-500 pb-2'>Name *</label>
           <input className='p-2 rounded-lg' type='text' placeholder='Name' required />
           <label className='text-gray-500 pb-2 pt-4'>Email *</label>

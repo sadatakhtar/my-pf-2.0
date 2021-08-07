@@ -11,7 +11,7 @@ function Main() {
       width={80}
       height={80}
      />
-     <h2 className='text-3xl font-light pt-5 sm:text-5xl sm:font-medium 
+     <h2 id='home' className='text-3xl font-light pt-5 sm:text-5xl sm:font-medium 
      md:text-5xl md:font-medium'>Sadat Akhtar</h2>
      <p className='text-xs text-center font-light p-5 sm:text-sm 
      md:text-lg md:font-thin text-black'
