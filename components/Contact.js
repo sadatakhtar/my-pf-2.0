@@ -7,7 +7,7 @@ import gmailIcon from "../assets/gmailIcon.jpeg";
 
 function Contact() {
   return (
-    <div className="flex flex-col border justify-between items-center bg-[#092346] p-10 md:">
+    <div className="flex flex-col justify-between items-center bg-[#092346] p-10 md:">
       {/* <h2 className='text-white text-3xl pb-5 '>Get in touch</h2> */}
 
       <div className="sm:flex  ">
