@@ -5,13 +5,13 @@ function ProjectCard({Icon, title, techStack, link}) {
   return (
     <div className='flex justify-center flex-col group bg-[#989bc2] p-5 cursor-pointer border
     transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50 sm:object-cover'>
-      <a href={link} target='_blank'>
+      <a href={link} target='_blank' rel='noreferrer'>
         <Image 
         className='rounded-2xl sm:w-auto'
         src={Icon}
         width={200}
         height={200} 
-        // objectFit='contain'
+        alt='project picuture'
         
         />
      </a>

@@ -10,6 +10,7 @@ function Main() {
       src={centerImg}
       width={80}
       height={80}
+      alt='center picture'
      />
      <h2 id='home' className='text-3xl font-light pt-5 sm:text-5xl sm:font-medium 
      md:text-5xl md:font-medium'>Sadat Akhtar</h2>
