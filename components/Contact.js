@@ -68,8 +68,8 @@ function Contact() {
             />
             <SocialMediaIcons
               Icon={gmailIcon}
-              title="Gmail"
-              link="https://www.google.com/gmail"
+              title="Send email"
+              link="mailto:sadat0akhtar@gmail.com"
             />
             {/* <SocialMediaIcons  Icon={fbIcon} title='FaceBook' link='https://www.facebook.com'/> */}
             <SocialMediaIcons
