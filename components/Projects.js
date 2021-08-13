@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 import netflixImg from "../assets/netflix-logo.png";
 import huluImg from "../assets/hulu3.png";
 import qaImg from "../assets/login1.png";
-import cyfImg from "../assets/student-tracker.png";
+import amazonImg from "../assets/amazon.png";
 import tvImg from "../assets/tvshows.jpeg";
 import countriesImg from "../assets/countries.jpeg";
 import ftImg from "../assets/Ft.png";
@@ -27,6 +27,12 @@ function Projects() {
           link="https://hulu-clone-umber.vercel.app/"
         />
         <ProjectCard
+          Icon={amazonImg}
+          title="Amazon Clone"
+          techStack="React, Context API, CSS, Firebase Authentication + Firestore, Deployed on firebase"
+          link="https://clone-76120.web.app/"
+        />
+        <ProjectCard
           Icon={qaImg}
           title="Q & A platform"
           techStack="React, Node, Express, postgreSQL, Netlify"
@@ -44,12 +50,12 @@ function Projects() {
           techStack="Javascript, CSS, HTML, Netlify"
           link="https://cyf-sadatakhtar-tv.netlify.app/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           Icon={countriesImg}
           title="Countries"
           techStack="Javascript, CSS, HTML, Netlify"
           link="https://cyf-sadatakhtar-countries.netlify.app/"
-        />
+        /> */}
       </div>
     </div>
   );
