@@ -29,7 +29,7 @@ function Projects() {
         <ProjectCard
           Icon={amazonImg}
           title="Amazon Clone"
-          techStack="React, Context API, CSS, Firebase Authentication + Firestore, Deployed on firebase"
+          techStack="React, Context API, CSS, Firebase Authentication, Firestore & Stripe payment, Deployed on firebase"
           link="https://clone-76120.web.app/"
         />
         <ProjectCard
