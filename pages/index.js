@@ -7,6 +7,7 @@ import { ArrowCircleDownIcon } from "@heroicons/react/outline";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import CV from "../components/CV";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       </div>
       <Projects />
       <Contact />
+      <CV />
       <Footer />
     </div>
   );

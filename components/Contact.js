@@ -52,7 +52,7 @@ function Contact() {
           <button
             type="submit"
             className="mt-10 m-auto text-white border-2 w-40 h-16 rounded-3xl
-           hover:text-[#092346] hover:bg-white mb-10"
+           hover:text-[#092346] hover:bg-white"
           >
             SEND
           </button>
