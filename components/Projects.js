@@ -4,8 +4,9 @@ import huluImg from "../assets/hulu3.png";
 import qaImg from "../assets/login1.png";
 import amazonImg from "../assets/amazon.png";
 import tvImg from "../assets/tvshows.jpeg";
-import countriesImg from "../assets/countries.jpeg";
+import sfImg from "../assets/screwfixLogo.png";
 import ftImg from "../assets/Ft.png";
+
 
 function Projects() {
   return (
@@ -33,10 +34,10 @@ function Projects() {
           link="https://clone-76120.web.app/"
         />
         <ProjectCard
-          Icon={qaImg}
-          title="Q & A platform"
-          techStack="React, Node, Express, postgreSQL, Netlify"
-          link="https://question-mark.netlify.app/"
+          Icon={sfImg}
+          title="ScrewFix Clone"
+          techStack="NextJS, TailwindCSS, Material-UI, Deplyed on Vercel"
+          link="https://screwfix-clone.vercel.app/"
         />
         <ProjectCard
           Icon={ftImg}
