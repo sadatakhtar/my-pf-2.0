@@ -7,7 +7,6 @@ import tvImg from "../assets/tvshows.jpeg";
 import sfImg from "../assets/screwfixLogo.png";
 import ftImg from "../assets/Ft.png";
 
-
 function Projects() {
   return (
     <div className="md:bg-[#afb2d1] max-w-xs sm:max-w-lg md:max-w-2xl 2xl:max-w-3xl m-auto mb-20">
@@ -15,12 +14,6 @@ function Projects() {
         PROJECTS
       </h1>
       <div className="sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex flex-wrap justify-center space-x-2 space-y-1 shadow-2xl">
-        <ProjectCard
-          Icon={netflixImg}
-          title="Netflix Clone"
-          techStack="React, CSS, REST Api, Deployed on Netlify"
-          link="https://netflix-clone-16e6a.web.app/"
-        />
         <ProjectCard
           Icon={huluImg}
           title="Hulu Clone"
@@ -32,6 +25,12 @@ function Projects() {
           title="Amazon Clone"
           techStack="React, Context API, CSS, Firebase Authentication, Firestore & Stripe payment, Deployed on firebase"
           link="https://clone-76120.web.app/"
+        />
+        <ProjectCard
+          Icon={netflixImg}
+          title="Netflix Clone"
+          techStack="React, CSS, REST Api, Deployed on Netlify"
+          link="https://netflix-clone-16e6a.web.app/"
         />
         <ProjectCard
           Icon={sfImg}
