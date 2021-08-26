@@ -15,22 +15,23 @@ function Projects() {
       </h1>
       <div className="sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex flex-wrap justify-center space-x-2 space-y-1 shadow-2xl">
         <ProjectCard
+          Icon={netflixImg}
+          title="Netflix Clone"
+          techStack="React, CSS, REST Api, Deployed on Netlify"
+          link="https://netflix-clone-16e6a.web.app/"
+        />
+        <ProjectCard
           Icon={huluImg}
           title="Hulu Clone"
           techStack="NextJS, TailwindCSS, REST Api, HeroIcons, Flexbox, CSS Grid, Vercel"
           link="https://hulu-clone-umber.vercel.app/"
         />
+
         <ProjectCard
           Icon={amazonImg}
           title="Amazon Clone"
           techStack="React, Context API, CSS, Firebase Authentication, Firestore & Stripe payment, Deployed on firebase"
           link="https://clone-76120.web.app/"
-        />
-        <ProjectCard
-          Icon={netflixImg}
-          title="Netflix Clone"
-          techStack="React, CSS, REST Api, Deployed on Netlify"
-          link="https://netflix-clone-16e6a.web.app/"
         />
         <ProjectCard
           Icon={sfImg}
