@@ -24,7 +24,7 @@ function Main() {
         coding
       </p>
       <h1 className="text-center font-light text-black-500 sm:text-lg md:text-2xl p-5 pt-1">
-        JavaScript | HTML | CSS | React | NextJS | TypeScript | Node |
+        JavaScript | HTML | CSS | React | Redux Toolkit | NextJS | TypeScript | Node |
         PostgreSQL | GraphQL | TailwindCSS | AWS | CI/CD Pipeline | Docker | Cisco Networking - CCNA
       </h1>
 
