@@ -6,6 +6,7 @@ import amazonImg from "../assets/amazon.png";
 import tvImg from "../assets/tvshows.jpeg";
 import sfImg from "../assets/screwfixLogo.png";
 import ftImg from "../assets/Ft.png";
+import portfolioPic from '../assets/portfolio.png'
 
 function Projects() {
   return (
@@ -14,6 +15,12 @@ function Projects() {
         PROJECTS
       </h1>
       <div className="sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex flex-wrap justify-center space-x-2 space-y-1 shadow-2xl">
+      <ProjectCard
+          Icon={portfolioPic}
+          title="New Portfolio Site"
+          techStack="React, TailwindCSS, Framer-motion Animation, Deployed on Netlify"
+          link="https://sadatsportfolio.netlify.app/"
+        />
         <ProjectCard
           Icon={netflixImg}
           title="Netflix Clone"
